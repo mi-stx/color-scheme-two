@@ -1,0 +1,238 @@
+{
+    "name": "Two Dark",
+    "Description": "Color scheme based on Atom's One for Sublime Text 3/4",
+    "author": "bitst0rm",
+    "Homepage": "https://github.com/bitst0rm",
+    "License": "The MIT License (MIT)",
+    "variables": {
+        "red":          "#E06C75",
+        "darkred":      "#BE5046",
+        "pink":         "#F92472",
+        "lightpink":    "#FFB6C1",
+        "yellow":       "#E5C07B",
+        "yellowgreen":  "#9ACD32",
+        "goldenrod":    "#DAA520",
+        "orange":       "#E5C07B",
+        "green":        "#98C379",
+        "blue":         "#61AFEF",
+        "purple":       "#C678DD",
+        "cyan":         "#56B6C2",
+        "grey":         "#5C6370",
+        "white":        "#C6C8CD",
+        "black":        "#282C34",
+        "base1":        "#F92672",
+        "base2":        "#919BAA",
+        "base3":        "#22272E",
+        "base4":        "#474E5D",
+        "base5":        "#596173",
+        "base6":        "#313640",
+        "base7":        "#00FFFF",
+        "base8":        "#FF09CE",
+        "base9":        "#FFFF80",
+        "base10":       "#F0E68C",
+        "base11":       "#B22222",
+        "base12":       "#FFDE00",
+        "base13":       "#66D9FF"
+    },
+    "globals": {
+        "background":                   "var(black)",
+        "foreground":                   "var(white)",
+        "caret":                        "var(base13)",
+        "line_highlight":               "var(base6)",
+        "invisibles":                   "var(grey)",
+        "fold_marker":                  "var(base12)",
+        "gutter":                       "var(base3)",
+        "gutter_foreground":            "var(base2)",
+        "selection":                    "var(base4)",
+        "selection_border":             "var(base5)",
+        "selection_border_width":       "1",
+        "selection_corner_style":       "round",
+        "selection_corner_radius":      "2",
+        "highlight":                    "var(base10)",
+        "find_highlight":               "var(base9)",
+        "find_highlight_foreground":    "var(base11)",
+        "brackets_options":             "underline foreground bold",
+        "brackets_foreground":          "var(base8)",
+        "bracket_contents_options":     "underline foreground bold",
+        "bracket_contents_foreground":  "var(base7)",
+        "tags_options":                 "stippled_underline"
+    },
+    "rules": [
+        {
+            "name": "Red",
+            "scope": "variable, variable.language, entity.other.attribute-name, punctuation.definition.list_item, markup.deleted",
+            "foreground": "var(red)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Red:Bold",
+            "scope": "markup.heading, entity.name.section",
+            "foreground": "var(red)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "name": "DarkRed",
+            "scope": "punctuation.definition.variable",
+            "foreground": "var(darkred)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Pink",
+            "scope": "punctuation.definition.keyword, keyword.operator.comparison, keyword.operator.logical, keyword.operator.assignment, keyword.operator.ternary, keyword.operator.arithmetic, keyword.operator.relational, keyword.operator.quantifier, keyword.operator.negation, keyword.operator.bitwise, keyword.operator.word",
+            "foreground": "var(pink)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "LightPink",
+            "scope": "punctuation.accessor",
+            "foreground": "var(lightpink)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Yellow",
+            "scope": "variable.parameter, entity.other.inherited-class, markup.changed",
+            "foreground": "var(yellow)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "YellowGreen",
+            "scope": "entity.name.class, entity.name.struct, entity.name.enum, entity.name.union, entity.name.trait, entity.name.interface, entity.name.impl, entity.name.type, entity.name.namespace, entity.name.module",
+            "foreground": "var(yellowgreen)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Goldenrod",
+            "scope": "constant.character, constant.character.escape, constant.other, constant.other.placeholder",
+            "foreground": "var(goldenrod)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Goldenrod:Bold",
+            "scope": "constant, constant.language, constant.numeric, constant.numeric.integer, constant.numeric.integer.binary, constant.numeric.integer.octal, constant.numeric.integer.decimal, constant.numeric.integer.hexadecimal, constant.numeric.integer.other, constant.numeric.float, constant.numeric.float.binary, constant.numeric.float.octal, constant.numeric.float.decimal, constant.numeric.float.hexadecimal, constant.numeric.float.other, constant.numeric.complex, constant.numeric.complex.real, constant.numeric.complex.imaginary",
+            "foreground": "var(goldenrod)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "name": "Orange",
+            "scope": "string.regexp, meta.image.inline",
+            "foreground": "var(orange)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Green",
+            "scope": "string, markup.inserted",
+            "foreground": "var(green)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Green:Background",
+            "scope": "markup.raw.inline, markup.raw.block, markup.raw.code-fence",
+            "foreground": "var(green)",
+            "background": "var(base4)",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Blue",
+            "scope": "meta.link.inline.description, meta.image.inline.description, variable.function, entity.name.function, entity.name.constant, entity.name.tag",
+            "foreground": "var(blue)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Purple",
+            "scope": "storage, storage.type, storage.modifier, storage.type.function, keyword.declaration.function, keyword, keyword.operator, keyword.control, keyword.control.conditional, keyword.control.import, keyword.other.unit, keyword.other, markup.strikethrough, punctuation.definition.strikethrough",
+            "foreground": "var(purple)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Purple:Bold",
+            "scope": "markup.bold, punctuation.definition.bold",
+            "foreground": "var(purple)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "bold"
+        },
+        {
+            "name": "Purple:Italic",
+            "scope": "markup.italic, punctuation.definition.italic",
+            "foreground": "var(purple)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "italic"
+        },
+        {
+            "name": "Cyan",
+            "scope": "support, support.function, meta.group.regexp, meta.link, punctuation.definition.heading",
+            "foreground": "var(cyan)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Grey",
+            "scope": "comment, markup.quote",
+            "foreground": "var(grey)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": "italic"
+        },
+        {
+            "name": "White",
+            "scope": "variable.other.readwrite, variable.language.arguments, support.constant, support.module",
+            "foreground": "var(white)",
+            "background": "",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Case1",
+            "scope": "invalid.illegal, invalid",
+            "foreground": "var(white)",
+            "background": "var(base1)",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Case2",
+            "scope": "invalid.broken, invalid.deprecated",
+            "foreground": "var(white)",
+            "background": "var(yellow)",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Case3",
+            "scope": "invalid.unimplemented",
+            "foreground": "var(white)",
+            "background": "var(purple)",
+            "selection_foreground": "",
+            "font_style": ""
+        }
+    ]
+}
