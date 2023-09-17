@@ -17,7 +17,7 @@
         "blue":         "#61AFEF",
         "purple":       "#C678DD",
         "cyan":         "#56B6C2",
-        "grey":         "#5C6370",
+        "grey":         "#676F7E",
         "white":        "#C6C8CD",
         "black":        "#282C34",
         "base1":        "#F92672",
@@ -148,9 +148,17 @@
         },
         {
             "name": "Green:Background",
-            "scope": "markup.raw.inline, markup.raw.block, markup.raw.code-fence",
+            "scope": "markup.raw.inline",
             "foreground": "var(green)",
             "background": "var(base4)",
+            "selection_foreground": "",
+            "font_style": ""
+        },
+        {
+            "name": "Green:Background:Block",
+            "scope": "markup.raw.block, markup.raw.code-fence",
+            "foreground": "var(green)",
+            "background": "var(base3)",
             "selection_foreground": "",
             "font_style": ""
         },
